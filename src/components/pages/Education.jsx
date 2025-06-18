@@ -24,9 +24,9 @@ const Education = () => {
               <p className='sub'>Secondary School</p>
             </div>
           </div>
-          <div className="right-svg">
-          <img src="src\images\left-img.svg" alt="Education SVG" />
-        </div>
+          {/* <div className="right-svg">
+          <img src="/portfolio-web/src/images/edu.jpg" alt="Education SVG" />
+        </div> */}
         </div>
       
     </div>
