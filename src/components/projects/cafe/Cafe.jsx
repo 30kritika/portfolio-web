@@ -1,12 +1,12 @@
 import "/src/components/projects/cafe/cafe.css"
 import {SlGlobe} from "react-icons/sl";
 import {GrGithub} from "react-icons/gr";
-
+import cafeimg from '/src/images/cafe.jpg';
 export default function Cafe() {
   return (
     <div className="cafe-card">
         <div className="img-wr-cafe">
-            <img src="/src/images/cafe.jpg" className="image-cafe" alt="Cafe page image" />
+            <img src={cafeimg} className="image-cafe" alt="Cafe page image" />
         </div>
 
         <div className="cafe-content">

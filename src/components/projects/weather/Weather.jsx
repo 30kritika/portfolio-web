@@ -1,12 +1,12 @@
 import "/src/components/projects/weather/weather.css"
 import {SlGlobe} from "react-icons/sl";
 import {GrGithub} from "react-icons/gr";
-
+import weatherimg from '/src/images/weather.jpg';
 export default function Cafe() {
   return (
     <div className="cafe-card">
         <div className="img-wr-cafe">
-            <img src="/src/images/weather.jpg" className="image-cafe" alt="Cafe page image" />
+            <img src={weatherimg} className="image-cafe" alt="Weather page image" />
         </div>
 
         <div className="cafe-content">

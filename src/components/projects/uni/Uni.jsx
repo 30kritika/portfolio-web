@@ -1,12 +1,12 @@
 import "/src/components/projects/uni/uni.css"
 import {SlGlobe} from "react-icons/sl";
 import {GrGithub} from "react-icons/gr";
-
+import uniimg from '/src/images/uni.jpg';
 export default function Cafe() {
   return (
     <div className="cafe-card">
         <div className="img-wr-cafe">
-            <img src="/src/images/uni.jpg" className="image-cafe" alt="Cafe page image" />
+            <img src={uniimg} className="image-cafe" alt="Uni page image" />
         </div>
 
         <div className="cafe-content">
