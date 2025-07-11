@@ -14,7 +14,7 @@ export default function Resume() {
           title='Resume'
         ></iframe> */}
         <p className='resume-body'>
-          Click <a href="https://drive.google.com/file/d/1E_iT56vetbKgMC2ySvpGmsTRJ1kiVyLC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='resume-link'> 
+          Click <a href="https://drive.google.com/file/d/1Z_PWhWMPD6pS5P4Ez5Wfcwri-r8JwA-_/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='resume-link'> 
           here</a> to view.
         </p>
       </div>
